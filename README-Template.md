@@ -1,4 +1,4 @@
-# CVE NO
+# CVE/EDB ID
 
 ## 实验环境
 
