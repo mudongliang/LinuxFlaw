@@ -26,3 +26,17 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - EDB-34164
 - EDB-38685
 - EDB-39406
+
+## Classification
+
+### Stack Overflow
+
+### BSS/Data Overflow
+
+### Heap Overflow
+
+### Use-After-Free
+
+### Double Free / Invalid Free
+
+### Uninitialized Read
