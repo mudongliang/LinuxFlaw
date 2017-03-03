@@ -1,15 +1,15 @@
 # CVE/EDB ID
 
-## 实验环境
+## Experiment Environment
 
-## 安装（源码,...）
+## INSTALL & Configuration
 
-### 安装过程中的Problems
+## Problems in Installation & Configuration
 
-## 软件启动
+## How to trigger vulnerability
 
-## 漏洞测试
+## PoCs
 
-## 漏洞 Patch
+## Vulnerability Patch
 
 ## References
