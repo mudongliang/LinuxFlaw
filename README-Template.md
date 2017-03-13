@@ -12,4 +12,8 @@
 
 ## Vulnerability Details & Patch
 
+### Root Cause
+
+### Stack Trace
+
 ## References
