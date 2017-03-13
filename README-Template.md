@@ -10,6 +10,6 @@
 
 ## PoCs
 
-## Vulnerability Patch
+## Vulnerability Details & Patch
 
 ## References
