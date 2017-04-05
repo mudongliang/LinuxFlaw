@@ -41,7 +41,7 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - [ ] CVE-2007-2446
 - [ ] CVE-2007-2683
 - [ ] CVE-2007-2872
-- [ ] CVE-2007-4060
+- [x] CVE-2007-4060
 - [ ] CVE-2007-4965
 - [ ] CVE-2007-6454
 - [ ] CVE-2007-6697
