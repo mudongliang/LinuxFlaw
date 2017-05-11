@@ -80,8 +80,8 @@ implicit.c:478
 
 [4] [Docker Image](https://hub.docker.com/r/mudongliang/make-edb-34164/)
 
-[5][Exploit-DB Make 3.81 - Heap Overflow](https://www.exploit-db.com/exploits/34164/)
+[5] [Exploit-DB Make 3.81 - Heap Overflow](https://www.exploit-db.com/exploits/34164/)
 
-[6][LinuxFlaw Make 3.81 - Heap Overflow (PoC)](https://github.com/mudongliang/LinuxFlaw/blob/master/EDB-34164/34164.pl)
+[6] [LinuxFlaw Make 3.81 - Heap Overflow (PoC)](https://github.com/mudongliang/LinuxFlaw/blob/master/EDB-34164/34164.pl)
 
-[7][exploitdb-database Make 3.81 - Heap Overflow (PoC)](https://github.com/offensive-security/exploit-database/blob/master/platforms/linux/dos/34164.pl)
+[7] [exploitdb-database Make 3.81 - Heap Overflow (PoC)](https://github.com/offensive-security/exploit-database/blob/master/platforms/linux/dos/34164.pl)
