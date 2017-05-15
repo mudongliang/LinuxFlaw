@@ -1,7 +1,6 @@
-# CVE-2013-0221
+# CVE/EDB ID
 
 ## Experiment Environment
-Ubuntu 
 
 ## INSTALL & Configuration
 
@@ -11,6 +10,10 @@ Ubuntu
 
 ## PoCs
 
-## Vulnerability Patch
+## Vulnerability Details & Patch
+
+### Root Cause
+
+### Stack Trace
 
 ## References
