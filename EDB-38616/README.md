@@ -34,9 +34,16 @@ make
 ### Root Cause
 
 ```
-Modules/arraymodule.c:1389
+Modules/arraymodule.c
+array_fromstring(PyObject *args) {
+	char *str;
+	Py_ssize_t n;
+	PyArg_ParseTuple(args, &str, &n); // pass args to str and n, if the str is itself 
+	PyMem_RESIZE(item, char, (Py_SIZE(self) + n) * itemsize); // when preserved memory space is not enough, resize will realloc a new memory region and delete the original one, str will point to a freed memory
+	memcpy(item+(Py_SIZE(self)-n)*itemsize, str, itemsize*n); // SIGSEGV here
 
-	PyMem_RESIZE(item, char, (Py_SIZE(self) + n) * itemsize);
+}
+
 ```
 
 ### Stack Trace
