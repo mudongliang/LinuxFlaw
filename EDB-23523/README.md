@@ -50,3 +50,4 @@ change to build/gdb/bin
 ### Stack Trace
 
 ## References
+[analysis](http://blog.ioactive.com/2012/12/striking-back-gdb-and-ida-debuggers.html)
