@@ -16,6 +16,15 @@ make -f makefile.unix
 ```
 
 ## Problems in Installation & Configuration
+```
+#elif with no expression
+```
+Solution: modify #elif as #else
+```
+array.hpp:43:5: error: 'ErrHandler' was not declared in this scope
+	ErrHandler.MemoryError()
+```
+Solution: at the beginnig of array.hpp, add `extern ErrorHandler ErrHandler`
 
 ## How to trigger vulnerability
 
@@ -33,7 +42,14 @@ stack buffer to be overflowed is 4096 bytes long, 4084 bytes of charater A and 2
 
 consio.cpp:87
 ```
-RawPrint() {
+mprintf() {
+	char Msg[4096];
+	vsprintf(Msg, fmt); 
+	// fmt is "ERROR: Unknown options: " Msg is not large enough so Msg has already been overflowed here
+	RawPrint(Msg);
+}
+
+RawPrint(char* Msg) {
 	File OutFile;
 	char OutMsg[4096], *OutPos = OutMsg;
 	for (int I = 0; Msg[I]!=0 ; I++) {
