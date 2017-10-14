@@ -4,6 +4,8 @@
 
 CentOS 6.4
 
+Ubuntu 14.04
+
 ## INSTALL & Configuration
 
 ```
@@ -27,7 +29,7 @@ make
 
 [GNU UnRTF 0.19.3 - Font Table Conversion Buffer Overflow](https://www.exploit-db.com/exploits/25030/)
 
-[ecurityfocus(http://www.securityfocus.com/bid/12030/info)
+[securityfocus(http://www.securityfocus.com/bid/12030/info)
 
 ## Vulnerability Details & Patch
 

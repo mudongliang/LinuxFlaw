@@ -15,6 +15,10 @@ make
 ```
 
 ## Problems in Installation & Configuration
+```
+tty.c:25:20: fatal error: curses.h: No such file or directory
+```
+Solution: sudo apt-get install libncurse5-dev
 
 ## How to trigger vulnerability
 

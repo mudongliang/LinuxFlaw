@@ -4,6 +4,8 @@
 
 CentOS 6.4
 
+Ubuntu 14.04
+
 ## INSTALL & Configuration
 
 ```
@@ -12,8 +14,7 @@ wget https://github.com/mudongliang/source-packages/raw/master/EDB-890/psutils-p
 tar -xvf psutils-p17.tar.gz
 cd psutils
 
-./configure
-make
+make -f Makefile.unix
 ```
 
 ## Problems in Installation & Configuration
@@ -36,6 +37,7 @@ PERL = /usr/bin/perl
 ```
 ./psutils/psnup -8 `perl -e 'print "A"x250'`
 ```
+The optimization level of C compiler and if stack randomization is enabled will affect the number of A that will trigger the bug
 
 ## PoCs
 
