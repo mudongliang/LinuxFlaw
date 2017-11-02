@@ -24,6 +24,7 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - [x] CVE-2005-3862
 - [x] CVE-2005-4807
 - [ ] CVE-2006-0539
+- [ ] CVE-2006-1148
 - [x] CVE-2006-2362
 - [ ] CVE-2006-2656
 - [x] CVE-2006-2971
@@ -36,6 +37,7 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - [ ] CVE-2006-4812
 - [ ] CVE-2006-5815
 - [x] CVE-2006-6553
+- [x] CVE-2006-6563
 - [ ] CVE-2007-1001
 - [ ] CVE-2007-1371
 - [ ] CVE-2007-1777
@@ -45,15 +47,18 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - [x] CVE-2007-3947
 - [x] CVE-2007-4060
 - [x] CVE-2007-4965
+- [ ] CVE-2007-5301
 - [ ] CVE-2007-6454
 - [ ] CVE-2007-6697
 - [ ] CVE-2007-6731
 - [ ] CVE-2008-1767
+- [ ] CVE-2008-2950
 - [ ] CVE-2008-4864
 - [x] CVE-2008-5314
 - [x] CVE-2008-5904
 - [ ] CVE-2009-1886
 - [ ] CVE-2009-2286
+- [ ] CVE-2009-2950
 - [ ] CVE-2009-3050
 - [ ] CVE-2009-4880
 - [x] CVE-2009-5018
@@ -81,7 +86,9 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - [ ] CVE-2016-2233
 - [x] CVE-2016-2563
 - [ ] CVE-2016-5195
+- [ ] CVE-2016-7445
 - [ ] CVE-2016-8655
+- [ ] CVE-2016-8883
 - [x] CVE-2007-4965
 - [x] CVE-2017-5854
 - [x] CVE-2017-11403
@@ -99,6 +106,7 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - [ ] EDB-17083
 - [x] EDB-17611
 - [ ] EDB-22683
+- [x] EDB-23523
 - [x] EDB-24981
 - [ ] EDB-24984
 - [ ] EDB-24995
@@ -128,6 +136,7 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - [ ] EDB-39406
 - [x] EDB-39445
 - [ ] EDB-5424
+- [ ] EDB-652
 - [x] EDB-890
 - [x] EDB-9264
 
