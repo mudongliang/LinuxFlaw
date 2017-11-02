@@ -8,7 +8,7 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 
 - [ ] CVE-2001-0550
 - [ ] CVE-2002-0656
-- [ ] CVE-2002-1496
+- [x] CVE-2002-1496
 - [ ] CVE-2004-0238
 - [ ] CVE-2004-0557
 - [x] CVE-2004-0597
@@ -42,6 +42,7 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - [ ] CVE-2007-2446
 - [ ] CVE-2007-2683
 - [ ] CVE-2007-2872
+- [x] CVE-2007-3947
 - [x] CVE-2007-4060
 - [x] CVE-2007-4965
 - [ ] CVE-2007-6454
@@ -49,8 +50,8 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - [ ] CVE-2007-6731
 - [ ] CVE-2008-1767
 - [ ] CVE-2008-4864
-- [ ] CVE-2008-5314
-- [ ] CVE-2008-5904
+- [x] CVE-2008-5314
+- [x] CVE-2008-5904
 - [ ] CVE-2009-1886
 - [ ] CVE-2009-2286
 - [ ] CVE-2009-3050
@@ -59,7 +60,7 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - [ ] CVE-2010-1147
 - [x] CVE-2010-2891
 - [ ] CVE-2010-3904
-- [ ] CVE-2010-4221
+- [x] CVE-2010-4221
 - [ ] CVE-2010-4259
 - [ ] CVE-2010-4409
 - [ ] CVE-2011-1938
@@ -75,12 +76,16 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - [x] CVE-2014-8322
 - [ ] CVE-2015-1328
 - [ ] CVE-2015-7547
-- [ ] CVE-2015-7805
+- [x] CVE-2015-7805
 - [ ] CVE-2016-0728
 - [ ] CVE-2016-2233
 - [x] CVE-2016-2563
 - [ ] CVE-2016-5195
 - [ ] CVE-2016-8655
+- [x] CVE-2007-4965
+- [x] CVE-2017-5854
+- [x] CVE-2017-11403
+- [x] CVE-2017-12858
 
 ## EDB-ID List
 
@@ -144,8 +149,14 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 
 ### Null Pointer
 
-### Uninitialized Read
+- [EDB-23523](https://github.com/mudongliang/LinuxFlaw/tree/master/EDB-23523)
+
+### Uninitialized Memory
+
+- [CVE-2009-2950](https://github.com/mudongliang/LinuxFlaw/tree/master/CVE-2009-2950)
 
 ### Stack exhaustion
+
+- [CVE-2008-5314](https://github.com/mudongliang/LinuxFlaw/tree/master/CVE-2008-5314)
 
 ### Heap exhaustion
