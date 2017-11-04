@@ -36,7 +36,6 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - [ ] CVE-2006-4182
 - [ ] CVE-2006-4812
 - [ ] CVE-2006-5815
-- [x] CVE-2006-6553
 - [x] CVE-2006-6563
 - [ ] CVE-2007-1001
 - [ ] CVE-2007-1371
@@ -143,6 +142,9 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 ## Other-ID list
 
 - [x] Gentoo-Bug-70090
+- [ ] Sourceware-Bug-21877
+- [ ] Sourceware-Bug-21878
+- [ ] Sourceware-Bug-21880
 
 ## Classification
 
@@ -169,3 +171,11 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - [CVE-2008-5314](https://github.com/mudongliang/LinuxFlaw/tree/master/CVE-2008-5314)
 
 ### Heap exhaustion
+
+### Java Deserialization
+
+### Memory Leak
+
+- [Sourceware-Bug-21877](https://github.com/mudongliang/LinuxFlaw/tree/master/Sourceware-Bug-21877)
+- [Sourceware-Bug-21878](https://github.com/mudongliang/LinuxFlaw/tree/master/Sourceware-Bug-21878)
+- [Sourceware-Bug-21880](https://github.com/mudongliang/LinuxFlaw/tree/master/Sourceware-Bug-21880)
