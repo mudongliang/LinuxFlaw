@@ -1,4 +1,4 @@
-#! python3
+#! python
 
 #sys.path.append('~/Dev/LinuxFlaw/')
 
@@ -89,7 +89,7 @@ def create_from_excel():
         print (sheet['C' + str(row)].value)
         print("\n")
         cve = sheet['C' + str(row)].value
-        poc="./"+ sheet['F'+str(row)].value
+        poc="../files/"+ sheet['F'+str(row)].value
         references=sheet['H'+str(row)].value
 
         config = input("Install and configuration (link): \n")
