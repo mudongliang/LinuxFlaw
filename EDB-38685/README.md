@@ -9,6 +9,7 @@ Ubuntu 14.04 LTS
 ```
 wget https://github.com/mudongliang/source-packages/raw/master/EDB-38685/tack-1.07-1.tar.gz
 tar -xvf tack-1.07-1.tar.gz
+cd tack-1.07-1
 
 LIBS="-ltic" ./configure
 make
