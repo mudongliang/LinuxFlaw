@@ -22,32 +22,19 @@ make
 >../tack-test/edit.o: In function `show_changed':    
 >/home/core/tack/tack-test/edit.c:476: undefined reference to `_nc_tic_expand'    
 >/home/core/tack/tack-test/edit.c:477: undefined reference to `_nc_tic_expand'
-
->../tack-test/edit.o: In function `build_change_menu':
-
->/home/core/tack/tack-test/edit.c:971: undefined reference to `_nc_tic_expand'
-
->../tack-test/edit.o: In function `show_value':
-
->/home/core/tack/tack-test/edit.c:351: undefined reference to `_nc_reset_input'
-
->/home/core/tack/tack-test/edit.c:352: undefined reference to `_nc_trans_string'
-
->../tack-test/edit.o: In function `change_one_entry':
-
->/home/core/tack/tack-test/edit.c:891: undefined reference to `_nc_tic_expand'
-
->/home/core/tack/tack-test/edit.c:881: undefined reference to `_nc_reset_input'
-
->/home/core/tack/tack-test/edit.c:882: undefined reference to `_nc_trans_string'
-
->../tack-test/edit.o: In function `save_info':
-
->/home/core/tack/tack-test/edit.c:250: undefined reference to `_nc_tic_expand'
-
->collect2: error: ld returned 1 exit status
-
->make: *** [tack] Error 1
+>../tack-test/edit.o: In function `build_change_menu':    
+>/home/core/tack/tack-test/edit.c:971: undefined reference to `_nc_tic_expand'    
+>../tack-test/edit.o: In function `show_value':    
+>/home/core/tack/tack-test/edit.c:351: undefined reference to `_nc_reset_input'    
+>/home/core/tack/tack-test/edit.c:352: undefined reference to `_nc_trans_string'    
+>../tack-test/edit.o: In function `change_one_entry':    
+>/home/core/tack/tack-test/edit.c:891: undefined reference to `_nc_tic_expand'    
+>/home/core/tack/tack-test/edit.c:881: undefined reference to `_nc_reset_input'    
+>/home/core/tack/tack-test/edit.c:882: undefined reference to `_nc_trans_string'    
+>../tack-test/edit.o: In function `save_info':    
+>/home/core/tack/tack-test/edit.c:250: undefined reference to `_nc_tic_expand'    
+>collect2: error: ld returned 1 exit status    
+>make: *** [tack] Error 1    
 
 **Solution:**
 
