@@ -18,12 +18,9 @@ make
 
 **1. undefined reference to `_nc_tic_expand`**
 
->linking tack ...
-
->../tack-test/edit.o: In function `show_changed':
-
->/home/core/tack/tack-test/edit.c:476: undefined reference to `_nc_tic_expand'
-
+>linking tack ...    
+>../tack-test/edit.o: In function `show_changed':    
+>/home/core/tack/tack-test/edit.c:476: undefined reference to `_nc_tic_expand'    
 >/home/core/tack/tack-test/edit.c:477: undefined reference to `_nc_tic_expand'
 
 >../tack-test/edit.o: In function `build_change_menu':
