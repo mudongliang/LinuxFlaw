@@ -28,6 +28,7 @@ make
 
 [Python 2.7 array.fromstring Method - Use-After-Free](https://www.exploit-db.com/exploits/38616/)
 
+[Minimal PoC](https://bugs.python.org/issue24613#msg247051)
 
 ## Vulnerability Details & Patch
 
