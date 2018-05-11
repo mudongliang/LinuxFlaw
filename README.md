@@ -2,7 +2,7 @@
 
 This repo records all the vulnerabilities of linux software I have reproduced in my local workspace.
 
-If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its directory name. However, if there are two or more vulnerabilities with the same CVE-ID, we will use EDB-ID for its directory, but fill CVE-ID in the README file.
+If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its directory name. However, if there are two or more vulnerabilities with the same CVE-ID, we will use EDB-ID for its directory, but fill CVE-ID in the README file.
 
 ## CVE-ID List
 
@@ -20,7 +20,7 @@ If the vulnerability has both CVE-ID and EDB-ID, I will use CVE-ID as its direct
 - [x] CVE-2004-1255
 - [x] CVE-2004-1257
 - [x] CVE-2004-1261
-- [ ] CVE-2004-1262
+- [x] CVE-2004-1262
 - [ ] CVE-2004-1265
 - [ ] CVE-2004-1271
 - [x] CVE-2004-1275
