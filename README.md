@@ -30,8 +30,8 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [x] CVE-2004-1288
 - [x] CVE-2004-1289
 - [x] CVE-2004-1290
-- [ ] CVE-2004-1292
-- [ ] CVE-2004-1293
+- [x] CVE-2004-1292
+- [x] CVE-2004-1293
 - [ ] CVE-2004-1297
 - [ ] CVE-2004-1298
 - [ ] CVE-2004-1299
