@@ -35,7 +35,7 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [x] CVE-2004-1297
 - [x] CVE-2004-1298
 - [x] CVE-2004-1299
-- [ ] CVE-2004-2093
+- [x] CVE-2004-2093
 - [x] CVE-2004-2167
 - [ ] CVE-2005-0101
 - [ ] CVE-2005-0199
