@@ -32,9 +32,9 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [x] CVE-2004-1290
 - [x] CVE-2004-1292
 - [x] CVE-2004-1293
-- [ ] CVE-2004-1297
-- [ ] CVE-2004-1298
-- [ ] CVE-2004-1299
+- [x] CVE-2004-1297
+- [x] CVE-2004-1298
+- [x] CVE-2004-1299
 - [ ] CVE-2004-2093
 - [x] CVE-2004-2167
 - [ ] CVE-2005-0101
@@ -438,3 +438,9 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [Sourceware-Bug-21877](https://github.com/mudongliang/LinuxFlaw/tree/master/Sourceware-Bug-21877)
 - [Sourceware-Bug-21878](https://github.com/mudongliang/LinuxFlaw/tree/master/Sourceware-Bug-21878)
 - [Sourceware-Bug-21880](https://github.com/mudongliang/LinuxFlaw/tree/master/Sourceware-Bug-21880)
+
+## Note
+
+### Enable/Disable Security mitigations
+
+Please refer to [Traditional Mitigation](https://github.com/hardenedlinux/TraditionalMitigation) Repository to check security mitigations and how to enable/disable them.
