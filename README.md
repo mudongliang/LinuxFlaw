@@ -299,6 +299,7 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [ ] CVE-2017-9205
 - [ ] CVE-2017-9206
 - [ ] CVE-2017-9207
+- [x] CVE-2018-9138
 
 
 ## EDB-ID List
@@ -389,9 +390,9 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 ## Other-ID list
 
 - [x] Gentoo-Bug-70090
-- [ ] Sourceware-Bug-21877
-- [ ] Sourceware-Bug-21878
-- [ ] Sourceware-Bug-21880
+- [x] Sourceware-Bug-21877
+- [x] Sourceware-Bug-21878
+- [x] Sourceware-Bug-21880
 
 - Some vulnerabilities without CVE ID listed in Gentoo Security Blog
 
