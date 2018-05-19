@@ -167,7 +167,7 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [ ] CVE-2014-7185
 - [x] CVE-2014-8322
 - [ ] CVE-2014-8768
-- [ ] CVE-2014-9295
+- [x] CVE-2014-9295
 - [ ] CVE-2015-0235
 - [ ] CVE-2015-0252
 - [ ] CVE-2015-1265
@@ -338,6 +338,7 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [ ] EDB-30142
 - [ ] EDB-30648
 - [ ] EDB-31761
+- [ ] EDB-31761
 - [ ] EDB-31915
 - [ ] EDB-33251
 - [ ] EDB-3330
@@ -367,7 +368,6 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [ ] EDB-38857
 - [ ] EDB-39285
 - [ ] EDB-39406
-- [x] EDB-39445
 - [ ] EDB-39502
 - [ ] EDB-39673
 - [ ] EDB-39692
