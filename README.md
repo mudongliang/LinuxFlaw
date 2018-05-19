@@ -166,7 +166,7 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [ ] CVE-2014-6277
 - [ ] CVE-2014-7185
 - [x] CVE-2014-8322
-- [ ] CVE-2014-8768
+- [x] CVE-2014-8768
 - [x] CVE-2014-9295
 - [ ] CVE-2015-0235
 - [ ] CVE-2015-0252
