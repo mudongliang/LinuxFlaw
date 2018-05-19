@@ -126,7 +126,7 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [x] CVE-2010-2891
 - [ ] CVE-2010-3904
 - [x] CVE-2010-4221
-- [ ] CVE-2010-4259
+- [x] CVE-2010-4259
 - [x] CVE-2010-4409
 - [ ] CVE-2011-0420
 - [ ] CVE-2011-0708
