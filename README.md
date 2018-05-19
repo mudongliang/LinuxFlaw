@@ -43,7 +43,7 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [x] CVE-2005-3120
 - [x] CVE-2005-3252
 - [x] CVE-2005-3862
-- [ ] CVE-2005-4667
+- [x] CVE-2005-4667
 - [x] CVE-2005-4807
 - [ ] CVE-2006-0539
 - [ ] CVE-2006-1148
