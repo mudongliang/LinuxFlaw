@@ -40,8 +40,8 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [x] CVE-2005-0101
 - [x] CVE-2005-0199
 - [x] CVE-2005-1275
-- [ ] CVE-2005-3120
-- [ ] CVE-2005-3252
+- [x] CVE-2005-3120
+- [x] CVE-2005-3252
 - [x] CVE-2005-3862
 - [ ] CVE-2005-4667
 - [x] CVE-2005-4807
@@ -63,7 +63,7 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [x] CVE-2006-4144
 - [ ] CVE-2006-4182
 - [ ] CVE-2006-4812
-- [ ] CVE-2006-5276
+- [x] CVE-2006-5276
 - [ ] CVE-2006-5295
 - [ ] CVE-2006-5465
 - [ ] CVE-2006-5815
