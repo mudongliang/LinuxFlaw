@@ -147,7 +147,7 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [x] CVE-2013-0221
 - [x] CVE-2013-0222
 - [x] CVE-2013-0223
-- [ ] CVE-2013-0722
+- [x] CVE-2013-0722
 - [x] CVE-2013-2028
 - [ ] CVE-2013-2131
 - [ ] CVE-2013-3724
