@@ -50,8 +50,8 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [ ] CVE-2006-1542
 - [ ] CVE-2006-2025
 - [x] CVE-2006-2362
-- [ ] CVE-2006-2465
-- [ ] CVE-2006-2656
+- [x] CVE-2006-2465
+- [x] CVE-2006-2656
 - [x] CVE-2006-2971
 - [ ] CVE-2006-3082
 - [ ] CVE-2006-3124
