@@ -15,8 +15,11 @@ Image Name|username|password
 [Ubuntu 12.04](https://psu.box.com/s/m55ncbvgmmcaua57ofhf606zhpstu4ch) | ubuntu | ubuntu
 [Fedora](https://psu.box.com/s/rfxl4zw1tkv84jxc6el3fqyo8clf77je) | fedora | fedora
 [OpenSUSE](https://psu.box.com/s/q940eadlnx9cwez0w0ru61he3vyhj7eu) | core | core
+[Ubuntu 14.04_core](https://psu.box.com/s/uag1v3u9eboce4nylrgwc0cbcdghxu5n) | core | core
 
 For details of vulnerabilities(in which virtual machine, what is the reproduction workspace, etc.), please refer to [virtualmachine.csv](./virtualmachine.csv)
+
+If you encounter problems with keyword "Failed to lock files", you could try to delete any `.lck` or `.lock` files or folders in the directory of the problematic VM.
 
 ## CVE-ID List
 
