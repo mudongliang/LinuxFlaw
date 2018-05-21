@@ -28,6 +28,7 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [x] CVE-2002-0656
 - [x] CVE-2002-1496
 - [x] CVE-2002-1896
+- [ ] CVE-2003-0577 (Fail to reproduce)
 - [x] CVE-2004-0238
 - [x] CVE-2004-0270
 - [x] CVE-2004-0557
@@ -35,14 +36,21 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [x] CVE-2004-0990
 - [x] CVE-2004-1120
 - [x] CVE-2004-1255
+- [ ] CVE-2004-1256 (Fail to reproduce)
 - [x] CVE-2004-1257
+- [ ] CVE-2004-1258 (Fail to reproduce)
+- [ ] CVE-2004-1259 (Fail to reproduce)
+- [ ] CVE-2004-1260 (Fail to reproduce)
 - [x] CVE-2004-1261
 - [x] CVE-2004-1262
 - [x] CVE-2004-1265
+- [ ] CVE-2004-1266 (Fail to reproduce)
 - [x] CVE-2004-1271
+- [ ] CVE-2004-1272 (Fail to reproduce)
 - [x] CVE-2004-1275
 - [x] CVE-2004-1278
 - [x] CVE-2004-1279
+- [ ] CVE-2004-1283 (Fail to reproduce)
 - [x] CVE-2004-1287
 - [x] CVE-2004-1288
 - [x] CVE-2004-1289
@@ -52,6 +60,7 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [x] CVE-2004-1297
 - [x] CVE-2004-1298
 - [x] CVE-2004-1299
+- [ ] CVE-2004-1455 (Fail to reproduce)
 - [x] CVE-2004-2093
 - [x] CVE-2004-2167
 - [x] CVE-2005-0101
@@ -111,10 +120,13 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [ ] CVE-2008-1801
 - [ ] CVE-2008-1802
 - [ ] CVE-2008-1887
+- [ ] CVE-2008-2292 (Fail to reproduce)
 - [ ] CVE-2008-2315
+- [ ] CVE-2008-2316 (Fail to reproduce)
 - [x] CVE-2008-2950
 - [ ] CVE-2008-3142
 - [ ] CVE-2008-3143
+- [ ] CVE-2008-3144 (Fail to reproduce)
 - [ ] CVE-2008-4864
 - [ ] CVE-2008-5031
 - [x] CVE-2008-5314
@@ -219,7 +231,10 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [ ] CVE-2016-5195
 - [ ] CVE-2016-5636
 - [ ] CVE-2016-6199
+- [ ] CVE-2016-6832 (Fail to reproduce) 
+- [ ] CVE-2016-7393 (Fail to reproduce)
 - [ ] CVE-2016-7445
+- [ ] CVE-2016-7477 (Fail to reproduce)
 - [ ] CVE-2016-8655
 - [ ] CVE-2016-8676
 - [ ] CVE-2016-8678
