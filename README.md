@@ -2,7 +2,17 @@
 
 This repo records all the vulnerabilities of linux software I have reproduced in my local workspace.
 
-If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its directory name. However, if there are two or more vulnerabilities with the same CVE-ID, we will use EDB-ID for its directory, but fill CVE-ID in the README file.
+If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its directory name. All the vulnerable source code packages are stored in [source-packages](https://github.com/mudongliang/source-packages)
+
+## Vmware Workstation Images
+
+[Ubuntu 8.10](https://psu.box.com/s/yzy7l5okh77xa7bwzilk90jwf1it0bs1)
+
+[Ubuntu 10.04LTS](https://psu.box.com/s/g7pvmwsvi0a4o85j0clthkn64iuplzzl)
+
+[CentOS 6.5](https://psu.box.com/s/afzod6ewo0sdsz86wpw5f3ynwv7mz6uv)
+
+[CentOS 5.5](https://psu.box.com/s/rvqv9yxeywvq5rhzp212u1q8799w263s)
 
 ## CVE-ID List
 
