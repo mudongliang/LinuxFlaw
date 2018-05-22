@@ -16,6 +16,7 @@ Image Name|username|password
 [Fedora](https://psu.box.com/s/rfxl4zw1tkv84jxc6el3fqyo8clf77je) | fedora | fedora
 [OpenSUSE](https://psu.box.com/s/q940eadlnx9cwez0w0ru61he3vyhj7eu) | core | core
 [Ubuntu 14.04_core](https://psu.box.com/s/uag1v3u9eboce4nylrgwc0cbcdghxu5n) | core | core
+[Kali](https://psu.box.com/s/4r3zacu2uq4ni1eb8lyxh9bk6r4kkvo6) | root | kali
 
 For details of vulnerabilities(in which virtual machine, what is the reproduction workspace, etc.), please refer to [virtualmachine.csv](./virtualmachine.csv)
 
