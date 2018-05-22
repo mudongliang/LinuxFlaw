@@ -84,10 +84,11 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [ ] CVE-2006-3581
 - [ ] CVE-2006-3582
 - [ ] CVE-2006-3746
-- [ ] CVE-2006-4018
+- [x] CVE-2006-4018
 - [ ] CVE-2006-4089
 - [x] CVE-2006-4144
 - [x] CVE-2006-4182
+- [x] CVE-2006-4812
 - [x] CVE-2006-5276
 - [ ] CVE-2006-5295
 - [ ] CVE-2006-5465
@@ -110,6 +111,7 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [x] CVE-2007-4060
 - [x] CVE-2007-4965
 - [ ] CVE-2007-5301
+- [x] CVE-2007-5759 
 - [ ] CVE-2007-6015
 - [ ] CVE-2007-6454
 - [ ] CVE-2007-6697
