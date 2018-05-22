@@ -2,7 +2,24 @@
 
 This repo records all the vulnerabilities of linux software I have reproduced in my local workspace.
 
-If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its directory name. However, if there are two or more vulnerabilities with the same CVE-ID, we will use EDB-ID for its directory, but fill CVE-ID in the README file.
+If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its directory name. All the vulnerable source code packages are stored in [source-packages](https://github.com/mudongliang/source-packages)
+
+## Vmware Workstation Images
+Image Name|username|password
+----------|--------|--------
+[Ubuntu 8.10](https://psu.box.com/s/yzy7l5okh77xa7bwzilk90jwf1it0bs1) | exploit | exploit
+[Ubuntu 10.04LTS](https://psu.box.com/s/g7pvmwsvi0a4o85j0clthkn64iuplzzl) | exploit | exploit
+[CentOS 6.5](https://psu.box.com/s/afzod6ewo0sdsz86wpw5f3ynwv7mz6uv) | core | core
+[CentOS 5.5](https://psu.box.com/s/rvqv9yxeywvq5rhzp212u1q8799w263s) | core | core
+[Ubuntu 11.04](https://psu.box.com/s/l1xjsuue2lfibtwr9osr5d00ddnqy19y) | dzm77 | dzm77
+[Ubuntu 12.04](https://psu.box.com/s/m55ncbvgmmcaua57ofhf606zhpstu4ch) | ubuntu | ubuntu
+[Fedora](https://psu.box.com/s/rfxl4zw1tkv84jxc6el3fqyo8clf77je) | fedora | fedora
+[OpenSUSE](https://psu.box.com/s/q940eadlnx9cwez0w0ru61he3vyhj7eu) | core | core
+[Ubuntu 14.04_core](https://psu.box.com/s/uag1v3u9eboce4nylrgwc0cbcdghxu5n) | core | core
+
+For details of vulnerabilities(in which virtual machine, what is the reproduction workspace, etc.), please refer to [virtualmachine.csv](./virtualmachine.csv)
+
+If you encounter problems with keyword "Failed to lock files", you could try to delete any `.lck` or `.lock` files or folders in the directory of the problematic VM.
 
 ## CVE-ID List
 
@@ -11,6 +28,7 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [x] CVE-2002-0656
 - [x] CVE-2002-1496
 - [x] CVE-2002-1896
+- [ ] CVE-2003-0577 (Fail to reproduce)
 - [x] CVE-2004-0238
 - [x] CVE-2004-0270
 - [x] CVE-2004-0557
@@ -18,14 +36,21 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [x] CVE-2004-0990
 - [x] CVE-2004-1120
 - [x] CVE-2004-1255
+- [ ] CVE-2004-1256 (Fail to reproduce)
 - [x] CVE-2004-1257
+- [ ] CVE-2004-1258 (Fail to reproduce)
+- [ ] CVE-2004-1259 (Fail to reproduce)
+- [ ] CVE-2004-1260 (Fail to reproduce)
 - [x] CVE-2004-1261
 - [x] CVE-2004-1262
 - [x] CVE-2004-1265
+- [ ] CVE-2004-1266 (Fail to reproduce)
 - [x] CVE-2004-1271
+- [ ] CVE-2004-1272 (Fail to reproduce)
 - [x] CVE-2004-1275
 - [x] CVE-2004-1278
 - [x] CVE-2004-1279
+- [ ] CVE-2004-1283 (Fail to reproduce)
 - [x] CVE-2004-1287
 - [x] CVE-2004-1288
 - [x] CVE-2004-1289
@@ -35,6 +60,7 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [x] CVE-2004-1297
 - [x] CVE-2004-1298
 - [x] CVE-2004-1299
+- [ ] CVE-2004-1455 (Fail to reproduce)
 - [x] CVE-2004-2093
 - [x] CVE-2004-2167
 - [x] CVE-2005-0101
@@ -50,8 +76,8 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [ ] CVE-2006-1542
 - [ ] CVE-2006-2025
 - [x] CVE-2006-2362
-- [ ] CVE-2006-2465
-- [ ] CVE-2006-2656
+- [x] CVE-2006-2465
+- [x] CVE-2006-2656
 - [x] CVE-2006-2971
 - [ ] CVE-2006-3082
 - [ ] CVE-2006-3124
@@ -61,8 +87,7 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [ ] CVE-2006-4018
 - [ ] CVE-2006-4089
 - [x] CVE-2006-4144
-- [ ] CVE-2006-4182
-- [ ] CVE-2006-4812
+- [x] CVE-2006-4182
 - [x] CVE-2006-5276
 - [ ] CVE-2006-5295
 - [ ] CVE-2006-5465
@@ -79,7 +104,7 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [ ] CVE-2007-2052
 - [ ] CVE-2007-2446
 - [ ] CVE-2007-2683
-- [ ] CVE-2007-2872
+- [x] CVE-2007-2872
 - [x] CVE-2007-3473
 - [x] CVE-2007-3947
 - [x] CVE-2007-4060
@@ -94,10 +119,13 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [ ] CVE-2008-1801
 - [ ] CVE-2008-1802
 - [ ] CVE-2008-1887
+- [ ] CVE-2008-2292 (Fail to reproduce)
 - [ ] CVE-2008-2315
+- [ ] CVE-2008-2316 (Fail to reproduce)
 - [x] CVE-2008-2950
 - [ ] CVE-2008-3142
 - [ ] CVE-2008-3143
+- [ ] CVE-2008-3144 (Fail to reproduce)
 - [ ] CVE-2008-4864
 - [ ] CVE-2008-5031
 - [x] CVE-2008-5314
@@ -202,7 +230,10 @@ If the vulnerability has both CVE-ID and EDB-ID, CVE-ID is preferred as its dire
 - [ ] CVE-2016-5195
 - [ ] CVE-2016-5636
 - [ ] CVE-2016-6199
+- [ ] CVE-2016-6832 (Fail to reproduce) 
+- [ ] CVE-2016-7393 (Fail to reproduce)
 - [ ] CVE-2016-7445
+- [ ] CVE-2016-7477 (Fail to reproduce)
 - [ ] CVE-2016-8655
 - [ ] CVE-2016-8676
 - [ ] CVE-2016-8678
