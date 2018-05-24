@@ -229,7 +229,7 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [ ] CVE-2016-10272
 - [ ] CVE-2016-2233
 - [x] CVE-2016-2563
-- [ ] CVE-2016-4557
+- [x] CVE-2016-4557
 - [ ] CVE-2016-5195
 - [ ] CVE-2016-5636
 - [ ] CVE-2016-6199
