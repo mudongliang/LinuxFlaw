@@ -434,8 +434,6 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 
 - Some vulnerabilities without CVE ID listed in Gentoo Security Blog
 
-- OpenNMS Java Object Unserialization Remote Code Execution
-
 ## Classification
 
 ### Stack Overflow
