@@ -438,13 +438,15 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 
 ### Stack Overflow
 
-### BSS/Data Overflow
-
 ### Heap Overflow
+
+### BSS/Data Overflow
 
 ### Use-After-Free
 
-### Double Free / Invalid Free
+### Double Free
+
+### Invalid Free
 
 ### Null Pointer
 
