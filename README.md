@@ -260,11 +260,11 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [x] CVE-2017-14642
 - [x] CVE-2017-14643
 - [x] CVE-2017-14644
-- [ ] CVE-2017-14645
+- [x] CVE-2017-14645
 - [x] CVE-2017-14646
 - [ ] CVE-2017-15020
-- [ ] CVE-2017-15938
-- [ ] CVE-2017-15939
+- [x] CVE-2017-15938
+- [x] CVE-2017-15939
 - [ ] CVE-2017-5502
 - [ ] CVE-2017-5852
 - [ ] CVE-2017-5853
