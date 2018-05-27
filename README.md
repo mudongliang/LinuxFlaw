@@ -174,7 +174,7 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [ ] CVE-2012-4412
 - [ ] CVE-2012-5612
 - [ ] CVE-2012-5667
-- [ ] CVE-2012-5867
+- [x] CVE-2012-5867
 - [x] CVE-2013-0221
 - [x] CVE-2013-0222
 - [x] CVE-2013-0223
@@ -349,12 +349,10 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [ ] EDB-1574
 - [ ] EDB-1578
 - [ ] EDB-16855
-- [ ] EDB-17083
 - [x] EDB-17611
 - [ ] EDB-17806
 - [ ] EDB-19987
 - [ ] EDB-20479
-- [ ] EDB-22683
 - [x] EDB-23523
 - [x] EDB-24981
 - [ ] EDB-24984
