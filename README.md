@@ -199,7 +199,7 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [x] CVE-2014-8322
 - [x] CVE-2014-8768
 - [x] CVE-2014-9295
-- [ ] CVE-2015-0235
+- [x] CVE-2015-0235
 - [x] CVE-2015-0252
 - [x] CVE-2015-1265
 - [x] CVE-2015-3205
