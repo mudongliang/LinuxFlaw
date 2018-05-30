@@ -191,7 +191,7 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [x] CVE-2013-7446
 - [ ] CVE-2014-0226
 - [ ] CVE-2014-0749
-- [ ] CVE-2014-1912
+- [x] CVE-2014-1912
 - [x] CVE-2014-2851
 - [x] CVE-2014-4616
 - [x] CVE-2014-6277
