@@ -180,7 +180,7 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [x] CVE-2013-0223
 - [x] CVE-2013-0722
 - [x] CVE-2013-2028
-- [ ] CVE-2013-2131
+- [x] CVE-2013-2131
 - [x] CVE-2013-3724
 - [x] CVE-2013-4123
 - [x] CVE-2013-4243
