@@ -173,7 +173,7 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [x] CVE-2012-4409
 - [ ] CVE-2012-4412
 - [ ] CVE-2012-5612
-- [ ] CVE-2012-5667
+- [x] CVE-2012-5667
 - [x] CVE-2012-5867
 - [x] CVE-2013-0221
 - [x] CVE-2013-0222
