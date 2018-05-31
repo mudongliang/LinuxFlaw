@@ -121,7 +121,7 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [x] CVE-2008-1767
 - [x] CVE-2008-1801
 - [x] CVE-2008-1802
-- [ ] CVE-2008-1887
+- [x] CVE-2008-1887
 - [ ] CVE-2008-2292 (Fail to reproduce)
 - [x] CVE-2008-2315
 - [ ] CVE-2008-2316 (Fail to reproduce)
