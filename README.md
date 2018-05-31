@@ -135,8 +135,8 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [x] CVE-2008-5904
 - [x] CVE-2009-1759
 - [x] CVE-2009-1886
-- [ ] CVE-2009-2285
-- [ ] CVE-2009-2286
+- [x] CVE-2009-2285
+- [x] CVE-2009-2286
 - [ ] CVE-2009-2950
 - [ ] CVE-2009-3050
 - [ ] CVE-2009-3586
