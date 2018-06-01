@@ -335,8 +335,8 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 
 ## EDB-ID List
 
-- [ ] EDB-10334
-- [ ] EDB-10617
+- [x] EDB-10334
+- [x] EDB-10617
 - [ ] EDB-10634
 - [ ] EDB-11644
 - [ ] EDB-14083
@@ -393,7 +393,7 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [ ] EDB-39875
 - [ ] EDB-40023
 - [ ] EDB-40025
-- [ ] EDB-8205
+- [x] EDB-8205
 - [x] EDB-890
 - [x] EDB-9264
 
