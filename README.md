@@ -371,10 +371,6 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [ ] EDB-36229
 - [ ] EDB-36388
 - [ ] EDB-36881
-- [ ] EDB-369
-- [ ] EDB-37051
-- [ ] EDB-3730
-- [ ] EDB-374
 - [ ] EDB-37546
 - [ ] EDB-37743
 - [ ] EDB-37777
@@ -402,8 +398,6 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [ ] EDB-39875
 - [ ] EDB-40023
 - [ ] EDB-40025
-- [ ] EDB-5424
-- [ ] EDB-652
 - [ ] EDB-8205
 - [x] EDB-890
 - [x] EDB-9264
