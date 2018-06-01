@@ -347,8 +347,8 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [x] EDB-15705
 - [x] EDB-17611
 - [x] EDB-17806
-- [ ] EDB-19987
-- [ ] EDB-20479
+- [x] EDB-19987
+- [x] EDB-20479
 - [x] EDB-23523
 - [ ] EDB-25411
 - [ ] EDB-26915
