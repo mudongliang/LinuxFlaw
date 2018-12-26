@@ -358,7 +358,6 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [ ] EDB-30142
 - [ ] EDB-30648
 - [ ] EDB-31761
-- [ ] EDB-31761
 - [ ] EDB-31915
 - [ ] EDB-33251
 - [ ] EDB-33949
