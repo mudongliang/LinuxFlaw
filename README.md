@@ -18,6 +18,7 @@ Image Name|username|password
 [Ubuntu 14.04_core](https://psu.box.com/s/uag1v3u9eboce4nylrgwc0cbcdghxu5n) | core | core
 [Kali](https://psu.box.com/s/4r3zacu2uq4ni1eb8lyxh9bk6r4kkvo6) | root | kali
 [Ubuntu_14.04_alex](https://psu.box.com/s/ui1kr4bgczlzb6f731xn66onc3ek799k) | research-cve | toortoor
+[Ubuntu_14.04_pt](https://psu.box.com/s/tah44vnuaqj4y2ml7740ma8o9we3gy3e) | pt | pt
 
 For details of vulnerabilities(in which virtual machine, what is the reproduction workspace, etc.), please refer to [virtualmachine.csv](./virtualmachine.csv)
 
@@ -356,7 +357,6 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [ ] EDB-28679
 - [ ] EDB-30142
 - [ ] EDB-30648
-- [ ] EDB-31761
 - [ ] EDB-31761
 - [ ] EDB-31915
 - [ ] EDB-33251
