@@ -241,7 +241,7 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [x] CVE-2016-9560
 - [ ] CVE-2016-9819
 - [ ] CVE-2016-9820
-- [ ] CVE-2016-9821
+- [x] CVE-2016-9821
 - [ ] CVE-2017-10688
 - [x] CVE-2017-11403
 - [x] CVE-2017-12858
@@ -333,6 +333,7 @@ If you encounter problems with keyword "Failed to lock files", you could try to 
 - [x] CVE-2017-9206
 - [x] CVE-2017-9207
 - [x] CVE-2018-9138
+- [x] CVE-2019-10269
 
 
 ## EDB-ID List
